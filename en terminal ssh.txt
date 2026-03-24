@@ -3,6 +3,7 @@ sudo apt-get update
 sudo apt install git
 git clone https://github.com/BNeira20/BIGDATA.git
 sudo apt install python3-pip
+sudo apt install python3-venv
 python3 -m venv venv
 source venv/bin/activate
 pip install requests
